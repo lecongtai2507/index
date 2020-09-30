@@ -1,0 +1,229 @@
+*{
+	padding:0;
+	margin:0;
+}
+.divlon{
+	width:1980px;
+	height:4000px;
+	background:#C7292C;
+	
+	
+}
+.divnho1{
+	width:100%;
+	height:1000px;
+	background-image: url("../hinh/coveeee.jpg");
+	float: left;
+}
+.divnho2{
+	width:100%;
+	height:1000px;
+	background: #7B7373;
+	float: left;
+}
+.divnho3{
+	width:100%;
+	height:1000px;
+	background-image:url("../hinh/sssdd.jpg");
+	float: left;
+}
+.divnho4{
+	width:100%;
+	height:1000px;
+	background-image:url("../hinh/dsdsdd.jpg");
+	float: left;
+}
+.thanhdieuhuong ul li {
+	float:right;
+	width:200px;
+	height:30px;
+	margin-right: 120px;
+	margin-top: 35px;
+	text-align: center;
+	color:#F7F501;
+	
+}
+.thanhdieuhuong ul {
+	list-style: none;
+	
+}
+.thanhdieuhuong ul li a {
+	text-decoration: none;
+	font-size:25px;
+	font-family: font1;
+	color:#E5FC08;
+	
+}
+.thanhdieuhuong ul li :hover {
+	border: 3px solid #FCC40A;
+	border-radius: 50px;
+	background-color: black ;
+	list-style: none;
+	transition-duration: 0.75s
+	
+		
+}
+.thanhdieuhuong {
+	width:100%;
+	height:100px;
+	position :fixed;
+	
+}
+@font-face {
+  font-family: font1;
+  src: url("../font/Oswald-Medium.ttf");
+}
+.logo {
+	width:200px;
+	height:100px;
+	float:left;
+}
+/*skill*/
+@import "compass/css3";
+
+Body Styles
+body { 
+  font-family: "Helvetica Neue" sans-serif;
+ 
+
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+h3 { font-size: 40px; }
+
+Progress Bars
+progress, progressrole {
+  appearance: none;
+  appearance: none;
+  appearance: none ;
+  border: none;
+  background-size: auto;
+  height: 100px;
+  width: 100%;
+}
+
+The unordered list
+.skill-list {
+  list-style: none;
+  margin: 0;
+  padding: 1em;
+}
+
+The list item
+.skill {
+  margin-bottom: 1em;
+  position: relative;
+  h3 {
+    color: #fff;
+    left: 1em;
+    line-height: 1;
+    position: absolute;
+    top: 1em;
+  }
+  webkit-progress-value { 
+  webkit-animation:bar-fill 2s;
+    width: 20px;
+  }
+}
+
+Style the bar colors
+.skill-1 {
+  background: #ff9e2c;
+}
+
+.skill-1{
+  background: #ff9e2c;
+}
+
+.skill-2 {
+  background: #4ecdc4;
+}
+
+.skill-2 {
+  background: #4ecdc4;
+}
+
+.skill-3{
+  background: #ff6b6b;
+}
+
+.skill-3{
+  background: #ff6b6b;
+}
+
+// Animation Keyframes
+@-webkit-keyframes{
+  20% { width: 0; }
+}
+
+@keyframes{
+  0% { width: 0; }
+}
+
+/*endskill*/
+.phai {
+	width:30%;
+	height:1000px;
+	float:right;
+}
+.trai {
+	width:70%;
+	height:1000px;
+	float:left;
+
+}
+.trai img {
+	margin-left: 300px;
+	margin-top:120px;
+	
+}
+.trai img:hover {
+	transform:scale(1.2);
+}
+.trai h {
+	text-align: center;
+	color:#06C9FC;
+	font-size:50px;
+	margin-top:10px;
+}
+.ketthuc {
+	width:600px;
+	height:500px;
+	margin-left: 1300px;
+	margin-top :200px;
+}
+button:hover {
+	border-radius: 25px;
+}
+.h1 {
+	background:#06C9FC;
+}
+.anhmxh {
+	width:700px;
+	height:250px;
+	float: left;
+	margin-top: 600px;
+    margin-left: 200px;
+}
+.anhmxh img {
+	margin:30px;
+	width: 140px;
+}
+.anhmxh img:hover {
+	transform:scale(1.2);
+}
+.thanhdieuhuong a2 {
+	font-size: 30px;
+	color:yellow;
+	line-height:  55px;
+}
+.divnho4 a {
+	float:left;
+}
+
+
+
